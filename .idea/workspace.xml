@@ -6,21 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f356d567-03c2-4390-b6ef-9de9c5b56460" name="Changes" comment="abis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/cyber_db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/cyber_db/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/cyber_db/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/cyber_db/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/instance/users.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/routes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/routes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/routes/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/routes/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/routes/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/getstarted.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/getstarted.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/subscriptions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/subscriptions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +35,12 @@
     &quot;assignee&quot;: &quot;AIRSA87&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/connornzis/Cybertalk1.git&quot;,
-    &quot;accountId&quot;: &quot;3ead97dc-0834-4f77-aad8-818eb7f1523f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AIRSA87/CyberTalkFinal1.git",
+    "accountId": "3ead97dc-0834-4f77-aad8-818eb7f1523f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -65,18 +50,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.database.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.models.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;updates-to-review&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/abira/PycharmProjects/CyberTalks/Cybertalk1/static/images&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.app.executor": "Run",
+    "Python.database.executor": "Debug",
+    "Python.models.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "C:/Users/abira/PycharmProjects/CyberTalks/Cybertalk1/static/images",
+    "settings.editor.selected.configurable": "configurable.group.project"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\abira\PycharmProjects\CyberTalks\Cybertalk1\static\images" />
