@@ -1,0 +1,63 @@
+/* User Navbar Customization */
+.navbar {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #000;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-buttons .btn {
+    font-size: 0.9rem;
+}
+
+.profile-pic img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+/* Back Arrow Styling */
+.back-arrow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.back-arrow a {
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.back-arrow a:hover {
+    color: #007bff;
+}
+
+/* User-Specific Page Customizations */
+.user-dashboard {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.user-dashboard h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Add more styles here as needed */

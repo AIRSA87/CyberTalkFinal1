@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}Features - CyberTalks{% endblock %}
+
+{% block content %}
+    <h2>Our Features</h2>
+    <form action="{{ url_for('general.features') }}" method="POST">
+        <p>Discover the unique features that make CyberTalks an exceptional platform for cybersecurity discussions and insights.</p>
+    </form>
+    <!-- Add specific content for the features page below -->
+    <section>
+        <h3>Feature 1: Up-to-Date Security News</h3>
+        <p>Stay informed with the latest in cybersecurity news and trends.</p>
+    </section>
+    <section>
+        <h3>Feature 2: Community Discussions</h3>
+        <p>Engage with a community of experts and enthusiasts in secure discussions.</p>
+    </section>
+    <section>
+        <h3>Feature 3: Secure Access Control</h3>
+        <p>Experience role-based access to tailored content and forums.</p>
+    </section>
+    <!-- Additional features can be added similarly -->
+
+    <!-- Feature Benefits Section -->
+    <section class="feature-benefits">
+        <div class="container d-flex align-items-center">
+            <div class="feature-image">
+                <img src="{{ url_for('static', filename='images/phone-image.png') }}" alt="Feature Benefits">
+            </div>
+            <div class="feature-text ml-5">
+                <h2>Feature Benefits</h2>
+                <p>Join CyberTalks to stay ahead of online threats with real-time scam alerts, expert insights, and practical tips to protect your data. Connect with cybersecurity pros in our interactive forums, track the latest scam trends, and receive fresh security tips every month—all through a simple, user-friendly platform designed for everyone.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="key-features">
+        <div class="container text-center">
+            <h2 class="display-4">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card card">
+                    <h3>Scam Alerts & Updates</h3>
+                    <p>Receive real-time notifications and detailed reports on the latest online scams.</p>
+                </div>
+                <div class="feature-card card">
+                    <h3>Interactive Forum</h3>
+                    <p>Engage with a community of cybersecurity enthusiasts and experts. Share your knowledge and stay informed.</p>
+                </div>
+                <div class="feature-card card">
+                    <h3>Monthly Scam Trends</h3>
+                    <p>Get insights into the most common scams each month with visualized data and trends.</p>
+                </div>
+                <div class="feature-card card">
+                    <h3>Monthly Email Updates</h3>
+                    <p>Stay informed with monthly cybersecurity newsletters featuring scam alerts, security tips, and expert insights delivered straight to your inbox.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container text-center">
+            <h2>Testimonials</h2>
+            <div class="testimonial-content">
+                <p class="lead">"Consectetur fugiat ipsum dolore ea veniam et proident dolor non aliqua nostrud culpa do."</p>
+                <p><strong>Name labori</strong> - Excepteur eiusmod cupidatat</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta cta-section">
+        <div class="container text-center">
+            <h2>Getting started</h2>
+            <a href="#" class="cta-button primary-button">Sign Up</a>
+        </div>
+    </section>
+
+{% endblock %}

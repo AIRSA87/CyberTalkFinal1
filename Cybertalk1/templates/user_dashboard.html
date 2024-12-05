@@ -1,0 +1,30 @@
+{% extends "user_base.html" %}
+
+{% block title %}User Dashboard - CyberTalks{% endblock %}
+
+{% block content %}
+    <h2>Welcome, {{ username }}!</h2>
+    <p>This is your user dashboard.</p>
+
+    <!-- Add sections relevant to regular users -->
+    <section>
+        <h3>Your Resources</h3>
+        <p>Access the latest articles, tools, and resources on cybersecurity.</p>
+        <ul>
+            <li><a href="{{ url_for('subscriptions') }}">View Subscription Plan</a></li>
+            <li><a href="{{url_for('user_forums')}}">View Latest Articles</a></li>
+            <li><a href="#">Update Account Settings</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Recent Activity</h3>
+        <p>Check out the latest updates on your account and platform activities.</p>
+        <ul>
+            <li>You read an article on "Phishing Scams" - 2 days ago</li>
+            <li>Newsletter subscription updated - 1 week ago</li>
+        </ul>
+    </section>
+
+    <a href="{{ url_for('logout') }}" class="btn btn-secondary">Log Out</a>
+{% endblock %}

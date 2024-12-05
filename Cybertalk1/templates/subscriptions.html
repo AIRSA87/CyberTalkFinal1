@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Subscriptions - CyberTalks{% endblock %}
+
+{% block body_class %}subscriptions-page{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='subscriptions.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>A Single Plan That Covers Everything</h1>
+            <p>We promise, you’ll never be asked to pay.</p>
+        </div>
+    </div>
+</div>
+
+<section class="subscription-pricing">
+    <h2>Subscription Pricing</h2>
+    <div class="pricing-card">
+        <div class="plan-tag">Popular</div>
+        <h3>100% Free Plan</h3>
+        <p class="access-text">Access to limited articles each month</p>
+        <p class="price">0 <span class="currency">/team/month</span></p>
+        <ul class="features-list">
+            <li><span class="check-icon">✔️</span> Read up to 5 articles per month</li>
+            <li><span class="check-icon">✔️</span> Basic newsletter access</li>
+            <li><span class="check-icon">✔️</span> Unlimited access to archives</li>
+        </ul>
+        <button class="subscribe-button">Subscribe</button>
+    </div>
+</section>
+
+<section class="get-started">
+    <h2>Ready to get started?</h2>
+    <p>Join CyberTalks today to stay informed with the latest scam alerts and cybersecurity insights tailored to your needs.</p>
+    <button class="sign-up-button">Sign Up</button>
+</section>
+{% endblock %}
+
+
+
+
+

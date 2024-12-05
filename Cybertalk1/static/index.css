@@ -1,0 +1,102 @@
+/* Container for the main section */
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: white;
+}
+
+/* Left content (title and description) */
+.left-content {
+    max-width: 50%;
+}
+
+.left-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.left-content p {
+    font-size: 1rem;
+    color: #4d4d4d;
+}
+
+/* Call-to-action (CTA) section */
+.cta-section {
+    width: 100%;
+    text-align: center;
+    background-color: #006c84; /* Background color from your design */
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 50px;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button {
+    background-color: #222222;
+    color: white;
+}
+
+.primary-button i {
+    margin-left: 10px;
+}
+
+.primary-button:hover {
+    background-color: #000000;
+}
+
+.secondary-button {
+    background-color: #f3f4f6;
+    color: #000000;
+}
+
+.secondary-button:hover {
+    background-color: #dddddd;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .intro-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left-content {
+        max-width: 100%;
+    }
+
+    .cta-section {
+        margin-top: 30px;
+    }
+}

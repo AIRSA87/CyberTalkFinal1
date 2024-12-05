@@ -1,0 +1,38 @@
+.about-hero {
+    background-color: #1cb0f6;
+    background-blend-mode: overlay;
+    color: white;
+    padding: 100px 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.team-section {
+    background-color: #1cb0f6;
+}
+
+.card {
+    background: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+h1.display-4 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+}

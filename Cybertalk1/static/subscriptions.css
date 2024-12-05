@@ -1,0 +1,176 @@
+/* Reset body and html to ensure full viewport coverage */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Full-page background styling for the subscription hero section */
+.hero-section {
+    background-image: url('/static/images/subscriptionheaderimage.jpeg'); /* Confirm this path */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+/* Dark overlay to enhance text readability */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centered content with text on top of the overlay */
+.hero-content {
+    text-align: center;
+    z-index: 2; /* To ensure it is above the overlay */
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* Subscription Pricing Section */
+.subscription-pricing {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #e0f7ff; /* Light blue background similar to the example */
+}
+
+.subscription-pricing h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pricing-card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #b3ecff; /* Light blue background for the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #000;
+    position: relative;
+}
+
+/* Plan tag styling */
+.plan-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 15px;
+}
+
+/* Pricing details */
+.pricing-card h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.access-text {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 3em;
+    color: #000;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.currency {
+    font-size: 0.5em;
+    color: #666;
+}
+
+/* Features list */
+.features-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1em;
+    color: #333;
+    margin: 20px 0;
+}
+
+.features-list li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Button styling */
+.subscribe-button,
+.sign-up-button {
+    padding: 12px 25px;
+    background-color: #001f3f; /* Dark blue background */
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.subscribe-button:hover,
+.sign-up-button:hover {
+    background-color: #003366;
+}
+
+/* Get Started Section */
+.get-started {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.get-started h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.get-started p {
+    font-size: 1.1em;
+    color: #555;
+}

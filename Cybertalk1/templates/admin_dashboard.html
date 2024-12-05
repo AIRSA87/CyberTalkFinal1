@@ -1,0 +1,41 @@
+{% extends "admin_base.html" %}
+
+{% block title %}Admin Dashboard - CyberTalks{% endblock %}
+
+{% block content %}
+    <h2>Welcome, Admin {{ username }}!</h2>
+    <p>This is your admin dashboard.</p>
+
+    <!-- Admin management tools and sections -->
+    <section>
+        <h3>User Management</h3>
+        <p>Manage users on the platform.</p>
+        <ul>
+            <li><a href="#">View All Users</a></li>
+            <li><a href="#">Add New Admin</a></li>
+            <li><a href="#">Remove User Access</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Content Monitoring</h3>
+        <p>Oversee platform content and security alerts.</p>
+        <ul>
+            <li><a href="#">View Recent Articles</a></li>
+            <li><a href="#">Review Reports on Scam Alerts</a></li>
+            <li><a href="#">Approve or Reject User-Submitted Content</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Platform Analytics</h3>
+        <p>View analytics and track platform usage.</p>
+        <ul>
+            <li><a href="#">User Engagement Statistics</a></li>
+            <li><a href="#">Subscription Trends</a></li>
+            <li><a href="#">Security Incident Reports</a></li>
+        </ul>
+    </section>
+
+    <a href="{{ url_for('logout') }}" class="btn btn-secondary">Log Out</a>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}
+    About Us - CyberTalks
+{% endblock %}
+
+{% block content %}
+    <!-- Hero Section (About Us Heading) -->
+    <section class="about-hero text-white text-center" style="background-image: url('/static/images/hero-background.jpg'); background-size: cover; padding: 100px 0;">
+        <div class="container">
+            <h1 class="display-4 font-weight-bold">About us</h1>
+            <p class="lead">At CyberTalks, our mission is to empower individuals and businesses to stay informed, vigilant, and secure in the ever-evolving digital landscape. We are dedicated to providing real-time scam alerts, expert insights, and a collaborative platform where cybersecurity enthusiasts can come together to share knowledge and combat online threats. Through community engagement, education, and innovative tools, we aim to foster a culture of cybersecurity awareness, ensuring that everyone can navigate the online world with confidence and peace of mind.</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section text-center py-5" style="background-color: #1cb0f6;">
+        <div class="container">
+            <h2 class="mb-5 text-white">Our Team</h2>
+            <div class="row">
+                <div class="col-md-4 offset-md-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/static/images/placeholder-profile.png" class="img-fluid mb-3" alt="Abigail Rawlins">
+                            <h5 class="card-title">Abigail Rawlins</h5>
+                            <p class="card-text">UI/UX Consultant Lead</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/static/images/connor-henderson.jpg" class="img-fluid mb-3" alt="Connor Henderson">
+                            <h5 class="card-title">Connor Henderson</h5>
+                            <p class="card-text">Cyber Analyst & Writer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

@@ -6,6 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="f356d567-03c2-4390-b6ef-9de9c5b56460" name="Changes" comment="abis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/cyber_db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/cyber_db/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/cyber_db/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/cyber_db/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/instance/users.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/routes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/routes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/routes/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/routes/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/routes/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/getstarted.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/getstarted.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cybertalk1/templates/subscriptions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cybertalk1/templates/subscriptions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
